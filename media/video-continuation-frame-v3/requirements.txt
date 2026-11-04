@@ -1,0 +1,5 @@
+# Tested dependency versions for this portable public copy's safe CLI-help check.
+# This is not a claim of a newly tested generation or extraction run.
+opencv-python==5.0.0.93
+Pillow==13.0.0
+numpy==2.5.4

@@ -1,0 +1,16 @@
+model: krea/krea-2/medium-turbo
+input:
+  prompt: "quiet shrine in rain"
+  aspect_ratio: "16:9"
+  resolution: "1K"
+  seed:
+  creativity: low
+  intensity: 0
+  complexity: 0
+  movement: 0
+  image_url:
+  strength: 0.99
+  image_style_references: []
+  styles: []
+  moodboards: []
+sync: false

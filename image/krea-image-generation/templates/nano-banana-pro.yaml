@@ -1,0 +1,8 @@
+model: google/nano-banana-pro
+input:
+  prompt: "quiet shrine in rain"
+  aspect_ratio: "16:9"
+  resolution: "2K"
+  image_urls: []
+  style_images: []
+sync: false

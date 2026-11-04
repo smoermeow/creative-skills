@@ -1,0 +1,7 @@
+In anime-style, a {{SHOT_SIZE}} from a {{CAMERA_ANGLE}}.
+
+{{SUBJECT}}
+
+{{DETAILS}}
+
+{{STYLE_ANCHOR}}

@@ -1,0 +1,9 @@
+model: openai/gpt-image-2
+input:
+  prompt: "quiet shrine in rain"
+  aspect_ratio: "16:9"
+  resolution: "2K"
+  quality: high
+  image_urls: []
+  style_images: []
+sync: false
