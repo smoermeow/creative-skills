@@ -171,15 +171,22 @@ Folder paths identify the originals; an upload UI may show only their basenames.
 
 ### Copy-ready routing instructions
 
+[Project instruction file](../../../chatgpt-projects/seedance-prompter-v4.txt) · [Files to upload and setup](../../../chatgpt-projects/README.md#seedance-prompter-v4)
+
 Paste only this short block into **ChatGPT Project instructions** (primary), **custom GPT Instructions** (secondary, if available), or **Gem instructions**. The original files above remain the method, not this routing text.
 
 ```text
-Use the uploaded seedance-prompter-v4 method for structured Seedance V4 video-prompt writing, not video generation.
-Read SKILL.md, instructions.md and seedance-prompter-v4-master-knowledge.md in full; consult platform-character-limits.md for the named target. Keep the original bracketed format and delivery contract; do not blend it with the Narrative method.
-If a required file is missing or cannot be read completely, stop and ask for
-it; do not substitute a summary or invent the method. Preserve the originals
-and the user's approved baseline. Do not rewrite or optimize the method, mix
-in another skill, or run image/video generation jobs.
+Use the uploaded Seedance Prompter V4 method.
+
+Before answering each request, read these uploaded files in full:
+- SKILL.md
+- instructions.md
+- seedance-prompter-v4-master-knowledge.md
+- platform-character-limits.md
+
+Follow their method and output requirements. Do not rewrite the method or combine it with another prompting system.
+
+If a required file is missing or cannot be read fully, ask for it before proceeding.
 ```
 
 This setup is for text work, not rendering. If you supply image references, use a chat/model that can actually inspect them; a filename or GitHub link is not proof that it has seen the image. Exact character counts, when required by the method, need an actual counting tool; do not label an estimate as verified.

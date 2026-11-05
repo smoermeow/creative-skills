@@ -1,0 +1,10 @@
+Use the uploaded Storyboard method.
+
+Before answering each request, read these uploaded files in full:
+- SKILL.md
+
+Follow their method and output requirements. Do not rewrite the method or combine it with another prompting system.
+
+If a required file is missing or cannot be read fully, ask for it before proceeding.
+
+Do not claim validation or file delivery unless the required Python checks and file output were actually completed.

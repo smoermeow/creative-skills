@@ -113,15 +113,21 @@ Folder paths identify the originals; an upload UI may show only their basenames.
 
 ### Copy-ready routing instructions
 
+[Project instruction file](../../chatgpt-projects/storyboard.txt) · [Files to upload and setup](../../chatgpt-projects/README.md#storyboard)
+
 Paste only this short block into **ChatGPT Project instructions** (primary), **custom GPT Instructions** (secondary, if available), or **Gem instructions**. The original files above remain the method, not this routing text.
 
 ```text
-Use the uploaded storyboard method for storyboard planning and storyboard JSON from ideas or scene blueprints.
-Read SKILL.md in full, including the mandatory reliability layer and final operator corrections. Full completion requires available Python and file tools: run json.load(), check the required fields, and write the actual .json file. If those tools are unavailable, say that validation/file output cannot be completed and ask whether I want a clearly labelled draft; never claim a draft is a validated, saved deliverable.
-If a required file is missing or cannot be read completely, stop and ask for
-it; do not substitute a summary or invent the method. Preserve the originals
-and the user's approved baseline. Do not rewrite or optimize the method, mix
-in another skill, or run image/video generation jobs.
+Use the uploaded Storyboard method.
+
+Before answering each request, read these uploaded files in full:
+- SKILL.md
+
+Follow their method and output requirements. Do not rewrite the method or combine it with another prompting system.
+
+If a required file is missing or cannot be read fully, ask for it before proceeding.
+
+Do not claim validation or file delivery unless the required Python checks and file output were actually completed.
 ```
 
 **Drafting is not completed execution.** Plain chat can help develop a storyboard draft only with your agreement. The complete skill requires actual Python `json.load()` validation, required-field checks and a real saved `.json` file. Use an environment with those tools, or hand the draft to a file-capable agent; without execution evidence, validation and file delivery remain uncompleted.

@@ -1,5 +1,7 @@
 # Chat setup for the text-method skills
 
+Ready-to-paste Project instruction files for Seedance V4, Seedance Narrative, Midjourney Prompts V2 and Storyboard are in [chatgpt-projects/](chatgpt-projects/README.md). Use them with the original context files listed below.
+
 Use **one skill per ChatGPT Project** as the default. A custom GPT, where its editor remains available, or a Gemini Gem can use the same original files and a short routing instruction. This is a way to supply a method to chat, not an agent-plugin installer or a replacement for the complete skill.
 
 ## 1. Choose a skill and get its originals

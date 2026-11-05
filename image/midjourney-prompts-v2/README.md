@@ -108,15 +108,20 @@ Folder paths identify the originals; an upload UI may show only their basenames.
 
 ### Copy-ready routing instructions
 
+[Project instruction file](../../chatgpt-projects/midjourney-prompts-v2.txt) · [Files to upload and setup](../../chatgpt-projects/README.md#midjourney-prompts-v2)
+
 Paste only this short block into **ChatGPT Project instructions** (primary), **custom GPT Instructions** (secondary, if available), or **Gem instructions**. The original files above remain the method, not this routing text.
 
 ```text
-Use the uploaded midjourney-prompts-v2 method for concise Midjourney image-prompt writing and scoped revisions.
-Read SKILL.md and prompt-template.txt in full before drafting. Preserve the exact approved style anchor and the method's output contract. Do not route video prompting or image generation here.
-If a required file is missing or cannot be read completely, stop and ask for
-it; do not substitute a summary or invent the method. Preserve the originals
-and the user's approved baseline. Do not rewrite or optimize the method, mix
-in another skill, or run image/video generation jobs.
+Use the uploaded Midjourney Prompts V2 method.
+
+Before answering each request, read these uploaded files in full:
+- SKILL.md
+- prompt-template.txt
+
+Follow their method and output requirements. Do not rewrite the method or combine it with another prompting system.
+
+If a required file is missing or cannot be read fully, ask for it before proceeding.
 ```
 
 This setup is for text work, not rendering. If you supply image references, use a chat/model that can actually inspect them; a filename or GitHub link is not proof that it has seen the image. Exact character counts, when required by the method, need an actual counting tool; do not label an estimate as verified.

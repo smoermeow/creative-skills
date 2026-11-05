@@ -15,6 +15,8 @@ https://github.com/smoermeow/creative-skills/tree/main/video/seedance/seedance-p
 
 ## Choose your agent or chat setup
 
+For ChatGPT Projects, use the [Project-ready instruction files](chatgpt-projects/README.md). Upload the original files listed there and paste the matching `.txt` into Project instructions.
+
 These skills can be used with **Claude, Codex, Hermes, or other agents that can read the complete files and follow the method**. The Creative Orchestrator is optional, not an installation prerequisite. Each skill README now has a copy-paste prompt to download/install that complete skill and a separate prompt to register it in an **existing** protected setup without replacing its methods or orchestration.
 
 - **Text methods are portable:** Midjourney Prompts V2, Anime Character Design Lab, both Seedance prompters, and Storyboard can supply their original method/context to a suitable agent. For upload-based chat, start with [CHAT_SETUP.md](CHAT_SETUP.md): ChatGPT Projects first, with custom GPT and Gemini Gem equivalents. Each text skill lists and links the actual original files to upload, plus short routing instructions. Storyboard additionally needs Python validation and actual file output for a completed result; chat drafting alone is not completion.
